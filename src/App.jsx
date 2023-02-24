@@ -9,27 +9,28 @@ import {logo, nft1, nft2, nft3, nft4, nft5, nft6, source, spray, spray2
 function App() {
   
   return (
-    <div className='flex justify-start '>
-    <div className='w-[90%] h-full relative flex justify-center ss:justify-start flex-col ss:flex-row z-20 '>
-            <img src={logo} alt="journal" className='z-20 w-[200px] h-[200px] ss:h-full ss:w-[400px] relative ml-[25%] ss:ml-0 mt-[30px] xs:mt-0'/>
-            <p className='flex text-black font-Apple text-[28px] lg:text-[50px] pl-[15%] ss:pl-0 md:text-[30px] z-20 text-center sm:text-start items-center pt-10 ss:pt-0'>welcome to b00btopia.</p>
+    <div className='flex'>
+    <div className='w-[90%] h-[100vh] sm:h-full relative flex justify-center sm:justify-start flex-col sm:flex-row z-20 items-center'>
+            <img src={logo} alt="journal" className='z-20 w-[200px] h-[200px] xs:w-[250px] xs:h-[250px] sm:w-[400px] sm:h-full relative '/>
+            <p className='flex text-black font-Apple text-[28px] lg:text-[50px]  md:text-[30px] text-center sm:text-start items-center pt-20 mt-5 ss:mt-0 sm:pt-0 z-30'>welcome to b00btopia.</p>
             <div className='xs:flex hidden'>
-            <div className='md:flex hidden'>
-          
-              <img src={spray} alt="spray" className='absolute top-30 left-[600px] z-10 invert'/>
-              <img src={spray} alt="spray" className='absolute top-[100px] left-[530px] z-10 invert'/>
-              <img src={spray} alt="spray" className='absolute top-[50px] left-[930px] z-10 invert'/>
-            </div>
-            <div className='ss:flex hidden overflow-hidden'>
-              <img src={spray} alt="spray" className='absolute top-[100px] left-[130px] z-10 invert'/>
-              <img src={spray} alt="spray" className='absolute top-[1px] left-[130px] z-10 invert'/>
-            </div>
-            <img src={spray2} alt="spray" className='absolute top-[1px] left-[0px] z-0 scale-125 invert'/>
+              <div className='md:flex hidden'>
+            
+                <img src={spray} alt="spray" className='absolute top-10 left-[600px] z-10 invert'/>
+                <img src={spray} alt="spray" className='absolute top-[100px] left-[530px] z-10 invert'/>
+                <img src={spray} alt="spray" className='absolute top-[50px] left-[930px] z-10 invert'/>
+              </div>
+              <div className='sm:flex hidden '>
+                <img src={spray} alt="spray" className='absolute top-[100px] left-[130px] z-10 invert'/>
+                <img src={spray} alt="spray" className='absolute top-[1px] left-[130px] z-10 invert'/>
+                <img src={spray2} alt="spray2" className='absolute top-[1px] left-[0px] z-0 scale-125 invert'/>
+              </div>
+              
            
             </div>
-            <div className='ss:hidden flex '>
-            <img src={spray2} alt="spray" className='absolute top-[1px] left-[-10px] z-0 scale-110 invert'/>
-              <img src={spray2} alt="spray" className='absolute top-[200px] left-[0px] z-0 scale-110 invert'/>
+            <div className='sm:hidden flex'>
+                <img src={spray2} alt="spray2" className='absolute top-[50%] left-[7%] z-10 scale-110 invert'/>
+                <img src={spray2} alt="spray2" className='absolute top-[25%] left-[7%] z-0 scale-110 invert'/>
             </div>
       </div>
         <div className='w-full h-full overflow-hidden perspective-500 xs:perspective-750 absolute z-0 bg-primary items-center' >
