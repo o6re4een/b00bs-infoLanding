@@ -30,7 +30,7 @@ function App() {
               
            
             </div>
-            <div className='ml:hidden xs:flex overflow-hidden'>
+            <div className='ml:hidden xs:flex sm:hidden overflow-hidden'>
                 <img src={spray2} alt="spray2" className='absolute top-[50%] left-[5%] z-10 scale-110 invert'/>
                 <img src={spray2} alt="spray2" className='absolute top-[25%] left-[5%] z-0 scale-110 invert'/>
             </div>
