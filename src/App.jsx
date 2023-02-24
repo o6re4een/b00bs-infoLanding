@@ -12,7 +12,9 @@ function App() {
     <div className='flex w-full h-full'>
     <div className='w-[90%] h-[100vh] sm:h-full relative flex justify-center sm:justify-start flex-col sm:flex-row z-20 items-center'>
             <img src={logo} alt="journal" className='z-20 w-[200px] h-[200px] xs:w-[250px] xs:h-[250px] sm:w-[400px] sm:h-full relative '/>
-            <p className='flex text-black font-Apple text-[28px] lg:text-[50px]  md:text-[30px] text-center sm:text-start items-center pt-20 mt-5 ss:mt-0 sm:pt-0 z-30'>welcome to b00btopia.</p>
+            <p className='ml:hidden xs:flex text-black font-Apple text-[28px] lg:text-[50px]  md:text-[30px] text-center sm:text-start items-center pt-20 sm:pt-0 z-30'>welcome to b00btopia.</p>
+            <p className='ml:flex xs:hidden text-black font-Apple text-[28px] lg:text-[50px]  md:text-[30px] text-center sm:text-start items-center pt-20 sm:pt-0 z-30'>welcome <br /> to b00btopia.</p>
+
             <div className='xs:flex hidden'>
               <div className='xl:flex hidden'>
             
@@ -28,9 +30,13 @@ function App() {
               
            
             </div>
-            <div className='sm:hidden flex overflow-hidden'>
+            <div className='ml:hidden xs:flex overflow-hidden'>
                 <img src={spray2} alt="spray2" className='absolute top-[50%] left-[5%] z-10 scale-110 invert'/>
                 <img src={spray2} alt="spray2" className='absolute top-[25%] left-[5%] z-0 scale-110 invert'/>
+            </div>
+            <div className='ml:flex xs:hidden overflow-hidden'>
+                <img src={spray2} alt="spray2" className='absolute top-[50%] left-[5%] z-10 scale-90 invert'/>
+                <img src={spray2} alt="spray2" className='absolute top-[20%] left-[5%] z-0 scale-110 invert'/>
             </div>
       </div>
         <div className='w-full h-full overflow-hidden perspective-500 xs:perspective-750 absolute z-0 bg-primary items-center' >
