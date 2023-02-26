@@ -9,16 +9,17 @@ import {logo, nft1, nft2, nft3, nft4, nft5, nft6, source, spray, spray2
 function App() {
   
   return (
-    <div className='flex w-full h-full flex-col'>
-      <div className="flex flex-row items-center justify-between bg-spray2 bg-center bg-fit z-30 invert p-2">
+    <div className='flex w-full  flex-col  h-full'>
+      <div className="flex h-full flex-row items-center justify-between bg-spray2 bg-center bg-fit z-30 invert p-2 ">
        
-          <a className=" font-Apple text-white text-center z-20 sm:text-[2rem] text-sm p-3" href="discord.gg/b00bs">Discord</a>
+          <a className=" font-Apple text-white text-center z-20 sm:text-[2rem] text-sm p-3" href="https://discord.gg/b00bs">Discord</a>
           <a className=" font-Apple text-white text-center z-20 sm:text-[2rem] text-sm p-3" href="https://magiceden.io/marketplace/b00bs">Magic Eden</a>
           <a className=" font-Apple text-white text-center z-20 sm:text-[2rem] text-sm p-3" href="https://twitter.com/b00bsNFT">Twitter</a>
         
         
 
       </div>
+      
     <div className='w-[90%] h-[90vh] sm:h-full relative flex justify-center sm:justify-start flex-col sm:flex-row z-20 items-center '>
             <img src={logo} alt="journal" className='z-20 w-[200px] h-[200px] xs:w-[250px] xs:h-[250px] sm:w-[400px] sm:h-full relative '/>
             <p className='ml:hidden xs:flex text-black font-Apple text-[28px] lg:text-[50px]  md:text-[30px] text-center sm:text-start items-center pt-20 sm:pt-0 z-30'>welcome to b00btopia.</p>
